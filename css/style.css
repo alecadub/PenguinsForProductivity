@@ -23,14 +23,27 @@ ul li{
     display: inline-block;
 }
 
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
 ul li a{
     text-decoration: none;
     color: white;
     padding: 5px 20px;
-    border: 1px solid white;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
 }
 
 ul li a:hover{
     background-color: white;
     color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
 }

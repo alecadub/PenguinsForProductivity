@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC"-//SAMPLE DOMAIN NAME//HTML TYPE" "http://www.productivitypenguin.me">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,5 +29,50 @@
         </div>
     </div>
 </div>
+<<<<<<< Updated upstream
+=======
+<div>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" ></script>
+  </head>
+  <body>
+    <form id="frm1"  onsubmit="myFunction(event)" >
+      Task - what do you plan to accomplish during   this   session    : <input id="taskName" type="text" name="taskName" size="40"><br>
+      Task Priority - From A (most important) to C (least important) :  <input   id="priority" type="text" name="priority" maxlength="1"><br><br>
+      <input type="image" src="enter.png" alt="Submit" width="48" height="72">
+    </form>
+    <div id="group">
+      <input type="checkbox" name="taskName" value="priority" > Task 1<br>
+      <input type="checkbox" name="vehicle" value="Car" checked="checked"> Task 2r<br>
+    </div>
+  </body>
+  <script>
+//   (function() {
+//     debugger
+//     var x = document.getElementById('frm1')
+//     x.on('submit', function(event){
+//       debugger
+//     })
+//   // $(document).ready(function(){
+//   //
+//   //
+//   //
+//   //
+//   // })
+// })();
+function myFunction(event) {
+    event.preventDefault();
+    var taskName =$('#taskName').val();
+    var priority = $('#priority').val();
+    // var list = document.getElementsByTagName("input");
+
+    $('#group').append('<input type="checkbox" name="vehicle" value="Car" checked="checked"> '+taskName+ ' '+ priority + ' <br>')
+}
+
+
+
+  </script>
+</div>
+>>>>>>> Stashed changes
 </body>
 </html>

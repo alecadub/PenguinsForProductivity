@@ -1,4 +1,8 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif;
+        background-image: url("https://i.ibb.co/V3X9vM9/frosty.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 ul{
     float: right;
@@ -136,6 +140,15 @@ span.psw {
     to {transform: scale(1)}
 }
 
+.eggpictures img{
+    width:190px;
+    height:210px;
+
+    margin-top: 200px;
+    margin-left: 450px;
+
+}
+
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
@@ -144,5 +157,15 @@ span.psw {
     }
     .cancelbtn {
         width: 100%;
+    }
+}
+
+.flexcontainer {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 320px) {
+    .flexcontainer {
+        display: block;
     }
 }

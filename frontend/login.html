@@ -56,7 +56,7 @@
             Task - what do you plan to accomplish during this session : <input id="taskName" type="text" name="vehicle"
                                                                                size="40"><br>
             <br><br>
-            <input type="image" src="" alt="Submit" width="48" height="72">
+            <input type="image" src="blank.png" alt="Submit" width="48" height="72">
         </form>
         <div id="group">
         </div>
@@ -85,10 +85,10 @@
                 if(getCheckedCheckboxesFor()==0){
                 }else{
                     if (getCheckedCheckboxesFor()/lenght>0.7) {
-                        document.getElementById("myImage").src="HappyPenguin.jpg";
+                        document.getElementById("myImage").src="HappyPenguin.png";
                     } else {
                         if (getCheckedCheckboxesFor()/lenght>0.5) {
-                            document.getElementById("myImage").src="okPenguin.jpg";
+                            document.getElementById("myImage").src="okPenguin.png";
                         }else{
                             if(getCheckedCheckboxesFor()/lenght>0 && getCheckedCheckboxesFor()/lenght<0.20){
                                 document.getElementById("myImage").src="egg3.png";

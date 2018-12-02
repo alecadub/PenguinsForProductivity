@@ -3,8 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="1fb1e93f-d30e-48df-bf1c-de172db14af5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/HappyPenguin.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/images/HappyPenguin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/babyPenguin.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/images/babyPenguin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/images/blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/egg-animated-clipart-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/images/egg-animated-clipart-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/egg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/images/egg3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/style/images/transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/transparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/okPenguin.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/images/okPenguin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/peng2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/peng3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/peng4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/style/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/style/images/egg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/style/images/p4p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/style/images/peng1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/transparent.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+            <state relative-caret-position="121">
+              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,21 +45,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/peng4.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/style/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="147" column="23" lean-forward="true" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+            <state relative-caret-position="196">
+              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/egg3.png">
+        <entry file="file://$PROJECT_DIR$/frontend/style/images/egg3.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -127,20 +127,6 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PenguinsForProductivity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PenguinsForProductivity" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PenguinsForProductivity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PenguinsForProductivity" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -157,8 +143,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend" />
       <recent name="$PROJECT_DIR$/frontend/style/images" />
+      <recent name="$PROJECT_DIR$/frontend" />
       <recent name="$PROJECT_DIR$/frontend/style" />
       <recent name="$PROJECT_DIR$/style/images" />
       <recent name="$PROJECT_DIR$/style/css" />
@@ -216,7 +202,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21133000" />
+    <option name="totallyTimeSpent" value="22068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="254" y="28" width="1057" height="740" extended-state="0" />
@@ -274,48 +260,48 @@
     <entry file="file://$PROJECT_DIR$/frontend/style/images/peng1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/egg-animated-clipart-1.jpg">
+    <entry file="file://$PROJECT_DIR$/frontend/style/images/egg-animated-clipart-1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/style/images/egg2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/peng3.jpg">
+    <entry file="file://$PROJECT_DIR$/frontend/style/images/peng3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/egg3.png">
+    <entry file="file://$PROJECT_DIR$/frontend/style/images/egg3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/peng4.jpg">
+    <entry file="file://$PROJECT_DIR$/frontend/style/images/peng2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/peng2.jpg">
+    <entry file="file://$PROJECT_DIR$/frontend/style/images/HappyPenguin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/style/images/transparent.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/style/images/peng4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/style/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="147" column="23" lean-forward="true" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+        <state relative-caret-position="196">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/HappyPenguin.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/transparent.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="90" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+        <state relative-caret-position="121">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#button#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

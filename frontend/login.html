@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style/css/login.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" ></script>
 </head>
 <body>
 
@@ -46,11 +47,28 @@
 </script>
 <div class="flexcontainer">
     <div>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ul>
+        <body>
+        <form id="frm1"  onsubmit="myFunction(event)" >
+            Task - what do you plan to accomplish during   this   session    : <input id="taskName" type="text" name="taskName" size="40"><br>
+            Task Priority - From A (most important) to C (least important) :  <input   id="priority" type="text" name="priority" maxlength="1"><br><br>
+            <input type="image" src="" alt="Submit" width="48" height="72">
+        </form>
+        <div id="group">
+        </div>
+        </body>
+        <script>
+            function myFunction(event) {
+                event.preventDefault();
+                var taskName =$('#taskName').val();
+                var priority = $('#priority').val();
+                // var list = document.getElementsByTagName("input");
+
+                $('#group').append('<input type="checkbox" name="vehicle" value="Car" checked="checked"> '+taskName+ ' '+ priority + ' <br>')
+            }
+
+
+
+        </script>
     </div>
     <div class="eggpictures">
         <img id="special-egg1" src="style/images/egg-animated-clipart-1.jpg"/>

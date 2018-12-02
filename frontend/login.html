@@ -55,16 +55,14 @@
         <form id="frm1" onsubmit="myFunction(event)">
             Task - what do you plan to accomplish during this session : <input id="taskName" type="text" name="vehicle"
                                                                                size="40"><br>
-            Task Priority - From A (most important) to C (least important) : <input id="priority" type="text"
-                                                                                    name="vehicle"
-                                                                                    maxlength="1"><br><br>
+            <br><br>
             <input type="image" src="" alt="Submit" width="48" height="72">
         </form>
         <div id="group">
         </div>
         </body>
         <script>
-            lenght = 2;
+            lenght = 0;
             checked = 0;
 
             function myFunction(event) {
@@ -75,7 +73,7 @@
                 printImage();
                 // var list = document.getElementsByTagName("input");
 
-                $('#group').append('<input type="checkbox" name="vehicle" value="Car"> ' + taskName + ' ' + priority + ' <br>')
+                $('#group').append('<input type="checkbox" name="vehicle" value="Car"> ' + taskName + ' ' + ' <br>')
             }
 
             function getCheckedCheckboxesFor() {
@@ -86,14 +84,16 @@
             function printImage() {
                 if(getCheckedCheckboxesFor()==0){
                 }else{
-                    if (getCheckedCheckboxesFor()/lenght>0.9) {
-                        document.write("<img id=\"special-egg1\" src=\"peng4.jpg\"/>");
+                    if (getCheckedCheckboxesFor()/lenght>0.7) {
+                        document.getElementById("myImage").src="HappyPenguin.jpg";
                     } else {
                         if (getCheckedCheckboxesFor()/lenght>0.5) {
-                            document.write("<img id=\"special-egg1\" src=\"peng3.jpg\"/>");
+                            document.getElementById("myImage").src="okPenguin.jpg";
                         }else{
                             if(getCheckedCheckboxesFor()/lenght>0 && getCheckedCheckboxesFor()/lenght<0.20){
-                                document.write("<img id=\"special-egg1\" src=\"egg3.png\"/>");
+                                document.getElementById("myImage").src="egg3.png";
+                            }else{
+                                document.getElementById("myImage").src="babyPenguin.png";
                             }
                         }
                     }
@@ -103,8 +103,10 @@
         </script>
     </div>
     <div class="eggpictures">
-        <img id="special-egg1" src="egg-animated-clipart-1.jpg"/>
+        <img src="egg-animated-clipart-1.jpg" id="myImage"/>
     </div>
+
+    <pre><button onclick="printImage()">Update penguin</button></pre>
 </div>
 </body>
 </html>

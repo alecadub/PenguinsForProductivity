@@ -1,0 +1,13 @@
+
+
+.white{
+    color: #f1f1f1;
+}
+
+.activeColor{
+    color: black;
+}
+
+.white:hover{
+    color: black;
+}

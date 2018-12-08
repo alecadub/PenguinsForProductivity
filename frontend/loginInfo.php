@@ -18,42 +18,54 @@
 
 <!-- Navigation Bar -->
 
-<nav class="navbar navbar-light" style="background-color: #4D75C4;colo">
-    <a class="navbar-brand" href="#"><span class="white">P4P</span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#"><span class="activeColor">Home</span> <span
-                            class="sr-only">(current)</span></a>
-            </li>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">P4P</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#"><span class="white">Log off</span></a>
+                <a class="nav-link" href="#">Log off</a>
             </li>
         </ul>
     </div>
 </nav>
 
+
 <!-- Card boxes -->
 
 <br>
+<!-- First card -->
 
 <div class="container ml-5 mr-5 mx-auto ">
     <div class="row">
         <div class="col-sm-6">
-            <div class="card">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Task for the semester</h5>
+                    <p class="card-text">
+                    <script>
+                        for (var i = 0; i < 6; i++) {
+                            document.write("<div class=\"input-group mb-3\">\n" +
+                                "                        <div class=\"input-group-prepend\">\n" +
+                                "                            <div class=\"input-group-text\">\n" +
+                                "                                <input type=\"checkbox\" aria-label=\"Checkbox for following text input\">\n" +
+                                "                            </div>\n" +
+                                "                        </div>\n" +
+                                "                        <input type=\"text\" class=\"form-control\" aria-label=\"Text input with checkbox\">\n" +
+                                "                    </div>" + "<br>");
+                        }
+                    </script>
+                    </p>
+                    <a href="#" class="btn btn-primary">Update penguin</a>
                 </div>
             </div>
         </div>
+
+        <!-- Second card -->
+
         <div class="col-sm-6">
-            <div class="card">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -64,6 +76,17 @@
     </div>
 </div>
 
+<!-- Print Checkbox and text form -->
+<script>
+    function printCheckboxes() {
+        var i;
+        var text = "";
+        for (i = 0; i < 5; i++) {
+            text += "hollla" + "<br>"
+        }
+        return text;
+    }
+</script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

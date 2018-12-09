@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- LoginInfo CSS -->
-    <link rel="stylesheet" type="text/css" href="style/css/loginInfo.css">
+    <link rel="stylesheet" type="text/css" href="style/css/home.css">
 
 
 
@@ -28,7 +28,12 @@
     }
 
     function updateGIF() {
-        document.getElementById("eggImage").src="eggCracking.gif";
+        if(getNumberOfCheckboxesChecked()==6){
+            document.getElementById("eggImage").src="eggOpen.gif";
+            document.getElementById("taskLeft").innerHTML="CONGRATS, you are a rockstar <3 "
+        }else{
+            document.getElementById("taskLeft").innerHTML="Keep up the good work, only "+(6-getNumberOfCheckboxesChecked())+" task left!";
+        }
     }
 
 </script>
@@ -57,7 +62,7 @@
 <div class="container ml-5 mr-5 mx-auto ">
     <div class="row">
         <div class="col-sm-6">
-            <div class="card shadow p-3 mb-5 rounded ">
+            <div class="card shadow p-3 mb-5 rounded transparentBackground">
                 <div class="card-body">
                     <h5 class="card-title">Task for the semester</h5>
                     <p class="card-text">
@@ -66,7 +71,7 @@
                             document.write("<div class=\"input-group mb-3\">\n" +
                                 "                        <div class=\"input-group-prepend\">\n" +
                                 "                            <div class=\"input-group-text\">\n" +
-                                "                                <input type=\"checkbox\" aria-label=\"Checkbox for following text input\">\n" +
+                                "                                <input type=\"checkbox\" name='task' a-label=\"Checkbox for following text input\">\n" +
                                 "                            </div>\n" +
                                 "                        </div>\n" +
                                 "                        <input type=\"text\" class=\"form-control\" aria-label=\"Text input with checkbox\">\n" +
@@ -82,10 +87,11 @@
         <!-- Second card -->
 
         <div class="col-sm-6">
-            <div class="card shadow p-3 mb-5 bg-white rounded">
+            <div class="card shadow p-3 mb-5 rounded transparentBackground">
                 <div class="card-body">
                     <img src="eggDancing.gif" id="eggImage" style="width: 500px;height: 600px"/>
                 </div>
+                <p class="mx-auto" id="taskLeft"></p>
             </div>
         </div>
     </div>

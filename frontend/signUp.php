@@ -11,14 +11,13 @@
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="style/css/login.css">
+    <link rel="stylesheet" type="text/css" href="style/css/signUp.css">
 
-    <title>P4P Login Page</title>
+    <title>P4P Sign up Page</title>
 </head>
 <body>
 
-
-<div class="container">
+<div class="container mx-auto" ">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
             <legend><a href="http://www.jquery2dotnet.com"><i class="glyphicon glyphicon-globe"></i></a> Sign up!</legend>

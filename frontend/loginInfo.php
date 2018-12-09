@@ -19,6 +19,20 @@
 </head>
 <body>
 
+<!-- Function to get the number of checkbox that are checked -->
+<script>
+
+    function getNumberOfCheckboxesChecked() {
+        var checkedNum = $('input[name="task"]:checked').length;
+        return checkedNum;
+    }
+
+    function updateGIF() {
+        document.getElementById("eggImage").src="eggCracking.gif";
+    }
+
+</script>
+
 <!-- Navigation Bar -->
 
 
@@ -60,7 +74,7 @@
                         }
                     </script>
                     </p>
-                    <a href="#" class="btn btn-primary">Update penguin</a>
+                    <button onclick="updateGIF()">Update your egg!</button>
                 </div>
             </div>
         </div>
@@ -70,9 +84,7 @@
         <div class="col-sm-6">
             <div class="card shadow p-3 mb-5 bg-white rounded">
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <img src="eggDancing.gif" id="eggImage" style="width: 500px;height: 600px"/>
                 </div>
             </div>
         </div>
@@ -216,7 +228,6 @@
     </footer>
     <!-- Footer -->
 </div>
-
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

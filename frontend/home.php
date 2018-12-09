@@ -14,8 +14,7 @@
     <link rel="stylesheet" type="text/css" href="style/css/home.css">
 
 
-
-    <title>P4P Login Page</title>
+    <title>Home page</title>
 </head>
 <body>
 
@@ -27,11 +26,11 @@
     }
 
     function updateGIF() {
-        if(getNumberOfCheckboxesChecked()===6){
-            document.getElementById("eggImage").src="style/images/eggOpen.gif";
-            document.getElementById("taskLeft").innerHTML="CONGRATS, you are a rockstar <3 "
-        }else{
-            document.getElementById("taskLeft").innerHTML="Keep up the good work, only "+(6-getNumberOfCheckboxesChecked())+" task left!";
+        if (getNumberOfCheckboxesChecked() === 6) {
+            document.getElementById("eggImage").src = "style/gif/eggOpen.gif";
+            document.getElementById("taskLeft").innerHTML = "CONGRATS, you are a rockstar <3 "
+        } else {
+            document.getElementById("taskLeft").innerHTML = "Keep up the good work, only " + (6 - getNumberOfCheckboxesChecked()) + " task left!";
         }
     }
 
@@ -65,18 +64,18 @@
                 <div class="card-body">
                     <h5 class="card-title">Task for the semester</h5>
                     <p class="card-text">
-                    <script>
-                        for (let i = 0; i < 6; i++) {
-                            document.write("<div class=\"input-group mb-3\">\n" +
-                                "                        <div class=\"input-group-prepend\">\n" +
-                                "                            <div class=\"input-group-text\">\n" +
-                                "                                <input type=\"checkbox\" name='task' a-label=\"Checkbox for following text input\">\n" +
-                                "                            </div>\n" +
-                                "                        </div>\n" +
-                                "                        <input type=\"text\" class=\"form-control\" aria-label=\"Text input with checkbox\">\n" +
-                                "                    </div>" + "<br>");
-                        }
-                    </script>
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+                                document.write("<div class=\"input-group mb-3\">\n" +
+                                    "                        <div class=\"input-group-prepend\">\n" +
+                                    "                            <div class=\"input-group-text\">\n" +
+                                    "                                <input type=\"checkbox\" name='task' a-label=\"Checkbox for following text input\">\n" +
+                                    "                            </div>\n" +
+                                    "                        </div>\n" +
+                                    "                        <input type=\"text\" class=\"form-control\" aria-label=\"Text input with checkbox\">\n" +
+                                    "                    </div>" + "<br>");
+                            }
+                        </script>
                     </p>
                     <button onclick="updateGIF()">Update your egg!</button>
                 </div>
@@ -88,7 +87,7 @@
         <div class="col-sm-6">
             <div class="card shadow p-3 mb-5 rounded transparentBackground">
                 <div class="card-body">
-                    <img src="style/images/eggDancing.gif" id="eggImage" style="width: 500px;height: 600px"/>
+                    <img src="style/gif/eggDancing.gif" id="eggImage" style="width: 500px;height: 600px"/>
                 </div>
                 <p class="mx-auto" id="taskLeft"></p>
             </div>
@@ -166,7 +165,7 @@
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
                     <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold"><span class="white">Products</span> </h6>
+                    <h6 class="text-uppercase font-weight-bold"><span class="white">Products</span></h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
                         <a href="#!">P1P</a>
@@ -215,11 +214,14 @@
                     <p>
                         <i class="fa fa-home mr-3" style="color: #f1f1f1"></i><span class="white">North Pole</span></p>
                     <p>
-                        <i class="fa fa-envelope mr-3" style="color: #f1f1f1"></i> <span class="white">nicolasnoel@northpole.np</span> </p>
+                        <i class="fa fa-envelope mr-3" style="color: #f1f1f1"></i> <span class="white">nicolasnoel@northpole.np</span>
+                    </p>
                     <p>
-                        <i class="fa fa-phone mr-3" style="color: #f1f1f1"></i> <span class="white">01 234 567 88</span></p>
+                        <i class="fa fa-phone mr-3" style="color: #f1f1f1"></i> <span class="white">01 234 567 88</span>
+                    </p>
                     <p>
-                        <i class="fa fa-print mr-3" style="color: #f1f1f1"></i> <span class="white">01 234 567 89</span></p>
+                        <i class="fa fa-print mr-3" style="color: #f1f1f1"></i> <span class="white">01 234 567 89</span>
+                    </p>
 
                 </div>
                 <!-- Grid column -->

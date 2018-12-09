@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb1e93f-d30e-48df-bf1c-de172db14af5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/HappyPenguin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/babyPenguin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/egg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/eggCracking.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/eggDancing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/images/eggDancing.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/eggOpen.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/images/eggOpen.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/eggShaking.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/eggs.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/signUp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/style/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/okPenguin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/style/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/style/images/blank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/style/images/egg-animated-clipart-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/style/images/enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/style/images/eggDancing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/gif/eggDancing.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/style/images/eggOpen.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/gif/eggOpen.gif" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,32 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/home.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            <state relative-caret-position="315">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/signUp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#p#0;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#p#1;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#p#2;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#p#3;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/style/css/home.css">
+        <entry file="file://$PROJECT_DIR$/frontend/style/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="330">
+              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -87,13 +79,15 @@
         <option value="$PROJECT_DIR$/frontend/index.html" />
         <option value="$PROJECT_DIR$/frontend/style/css/style.css" />
         <option value="$PROJECT_DIR$/frontend/login.html" />
-        <option value="$PROJECT_DIR$/frontend/style/css/login.css" />
         <option value="$PROJECT_DIR$/frontend/Hello.php" />
         <option value="$PROJECT_DIR$/frontend/eggs.html" />
         <option value="$PROJECT_DIR$/frontend/style/css/loginInfo.css" />
         <option value="$PROJECT_DIR$/frontend/loginInfo.php" />
         <option value="$PROJECT_DIR$/frontend/Home.php" />
         <option value="$PROJECT_DIR$/frontend/home.php" />
+        <option value="$PROJECT_DIR$/frontend/login.php" />
+        <option value="$PROJECT_DIR$/frontend/style/css/login.css" />
+        <option value="$PROJECT_DIR$/frontend/signUp.php" />
       </list>
     </option>
   </component>
@@ -124,26 +118,6 @@
               <item name="PenguinsForProductivity" type="b2602c69:ProjectViewProjectNode" />
               <item name="PenguinsForProductivity" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PenguinsForProductivity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PenguinsForProductivity" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PenguinsForProductivity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PenguinsForProductivity" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PenguinsForProductivity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PenguinsForProductivity" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,12 +193,12 @@
       <workItem from="1543697774827" duration="4667000" />
       <workItem from="1543887405502" duration="1761000" />
       <workItem from="1544202629897" duration="6284000" />
-      <workItem from="1544300804869" duration="21155000" />
+      <workItem from="1544300804869" duration="26004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51097000" />
+    <option name="totallyTimeSpent" value="55946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="740" extended-state="6" />
@@ -251,6 +225,28 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16515152" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -276,28 +272,14 @@
     <entry file="file://$PROJECT_DIR$/frontend/style/images/transparent.png" />
     <entry file="file://$PROJECT_DIR$/frontend/style/images/peng4.jpg" />
     <entry file="file://$PROJECT_DIR$/frontend/index.html" />
-    <entry file="file://$PROJECT_DIR$/frontend/style/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/eggs.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/eggCracking.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/style/images/eggDancing.gif">
+    <entry file="file://$PROJECT_DIR$/frontend/style/gif/eggDancing.gif">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/style/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/login.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -312,19 +294,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="195">
+          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#p#0;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#p#1;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#p#2;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#p#3;n#div#3;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/style/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/style/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/signUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

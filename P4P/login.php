@@ -13,6 +13,7 @@
     <!-- Font awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 
+    <link rel="stylesheet" type="text/css" href="style/css/style.css">
     <!-- import login backend -->
     <script src="js/login.js"></script>
 
@@ -20,10 +21,10 @@
 </head>
 <body>
 
-<div class="container mx-auto">
+<div class="container mx-auto" style="margin-top: 100px;">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <div class="mx-auto shadow p-3 mb-5 rounded panel panel-login" style="background-color: rgba(255, 252, 221, 1);">
+            <div class="mx-auto shadow p-3 mb-5 rounded panel panel-login">
                 <div class="panel-heading">
                     <div class="row shadow p-3 mb-5 rounded">
                         <div class="col-xs-6 shadow p-3 mb-5 rounded">
@@ -56,6 +57,7 @@
                                 </div>
                                 <div class="form-group">
                                     <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                                    <br>
                                     <label>
                                         <input type="checkbox">
                                         Remember me </label>

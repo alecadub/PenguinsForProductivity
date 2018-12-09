@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- LoginInfo CSS -->
 
-    <link rel="stylesheet" type="text/css" href="style/css/home.css">
+    <link rel="stylesheet" type="text/css" href="style/css/style.css">
 
     <!-- import backend -->
 
@@ -33,7 +33,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Log off</a>
+                <a class="nav-link" href="login.php">Log off</a>
             </li>
         </ul>
     </div>
@@ -53,16 +53,7 @@
                     <h5 class="card-title">Task for the semester</h5>
                     <p class="card-text">
                         <script>
-                            for (let i = 0; i < 6; i++) {
-                                document.write("<div class=\"input-group mb-3\">\n" +
-                                    "                        <div class=\"input-group-prepend\">\n" +
-                                    "                            <div class=\"input-group-text\">\n" +
-                                    "                                <input type=\"checkbox\" name='task' a-label=\"Checkbox for following text input\">\n" +
-                                    "                            </div>\n" +
-                                    "                        </div>\n" +
-                                    "                        <input type=\"text\" class=\"form-control\" aria-label=\"Text input with checkbox\">\n" +
-                                    "                    </div>" + "<br>");
-                            }
+                            printCheckboxes();
                         </script>
                     </p>
                     <button onclick="updateGIF()">Update your egg!</button>

@@ -8,33 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font awesome -->
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- LoginInfo CSS -->
+
     <link rel="stylesheet" type="text/css" href="style/css/home.css">
+
+    <!-- import backend -->
+
+    <script src="js/home.js"></script>
 
 
     <title>Home page</title>
 </head>
 <body>
-
-<!-- Function to get the number of checkbox that are checked -->
-<script>
-
-    function getNumberOfCheckboxesChecked() {
-        return $('input[name="task"]:checked').length;
-    }
-
-    function updateGIF() {
-        if (getNumberOfCheckboxesChecked() === 6) {
-            document.getElementById("eggImage").src = "style/gif/eggOpen.gif";
-            document.getElementById("taskLeft").innerHTML = "CONGRATS, you are a rockstar <3 "
-        } else {
-            document.getElementById("taskLeft").innerHTML = "Keep up the good work, only " + (6 - getNumberOfCheckboxesChecked()) + " task left!";
-        }
-    }
-
-</script>
 
 <!-- Navigation Bar -->
 
@@ -235,6 +223,7 @@
     </footer>
     <!-- Footer -->
 </div>
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

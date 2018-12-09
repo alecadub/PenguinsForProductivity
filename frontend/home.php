@@ -23,13 +23,12 @@
 <script>
 
     function getNumberOfCheckboxesChecked() {
-        var checkedNum = $('input[name="task"]:checked').length;
-        return checkedNum;
+        return $('input[name="task"]:checked').length;
     }
 
     function updateGIF() {
-        if(getNumberOfCheckboxesChecked()==6){
-            document.getElementById("eggImage").src="eggOpen.gif";
+        if(getNumberOfCheckboxesChecked()===6){
+            document.getElementById("eggImage").src="style/images/eggOpen.gif";
             document.getElementById("taskLeft").innerHTML="CONGRATS, you are a rockstar <3 "
         }else{
             document.getElementById("taskLeft").innerHTML="Keep up the good work, only "+(6-getNumberOfCheckboxesChecked())+" task left!";
@@ -89,7 +88,7 @@
         <div class="col-sm-6">
             <div class="card shadow p-3 mb-5 rounded transparentBackground">
                 <div class="card-body">
-                    <img src="eggDancing.gif" id="eggImage" style="width: 500px;height: 600px"/>
+                    <img src="style/images/eggDancing.gif" id="eggImage" style="width: 500px;height: 600px"/>
                 </div>
                 <p class="mx-auto" id="taskLeft"></p>
             </div>
